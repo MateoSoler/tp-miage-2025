@@ -51,7 +51,7 @@ docker run: lance un contener pour postgres on l’initialise avec le mot de pas
 * Compléter le code manquant dans la méthode `TodoListController.createTodoItem()`
 
 *Pourquoi `todoItemRepository` est-il `null` ? Quelle est la meilleure façon de l'injecter ?*
-Le repository n’est pas initialiser. La meilleur façon de l’injecter est de le faire de façons automatique avec @Inject ou @Autowired
+Le repository n’est pas initialiser. La meilleur façon de l’injecter est de le faire de façons automatique avec @Inject
 
 * Modifier le code en conséquence.
 
